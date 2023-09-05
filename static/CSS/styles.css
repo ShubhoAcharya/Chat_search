@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+.chat-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f1f1f1; /* Light gray chat background */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to the card */
+    overflow: hidden;
+}
+
+.chat-header {
+    background-color: #007bff; /* Blue header background */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.chat-history {
+    padding: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.chat-message {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    max-width: 80%;
+}
+
+.user-message {
+    background-color: #007bff; /* Blue user message background */
+    color: #fff;
+    text-align: right;
+    align-self: flex-end;
+}
+
+.bot-message {
+    background-color: #00b894; /* Green bot message background */
+    color: #fff;
+    align-self: flex-start;
+}
+
+.chat-input {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+#userInput {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #ffffff; /* White user input background */
+}
+
+#sendBtn {
+    margin-left: 10px;
+    background-color: #007bff; /* Blue send button background */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#sendBtn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
